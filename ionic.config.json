@@ -1,5 +1,7 @@
 {
   "name": "OfertonApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

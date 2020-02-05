@@ -1,0 +1,15 @@
+<ion-header>
+    <app-encabezado titulo="Oferton" usuario={{usuario}} margin-bottom></app-encabezado>
+    <app-categoriasbar></app-categoriasbar>
+</ion-header>
+<ion-content>
+    <ion-slides pager="true" [options]="slideOpts" margin padding>
+        <ion-slide>
+            <app-fichas-anuncios></app-fichas-anuncios>
+        </ion-slide>
+        <ion-slide>
+            <app-fichas-anuncios></app-fichas-anuncios>
+        </ion-slide>
+    </ion-slides>
+
+</ion-content>

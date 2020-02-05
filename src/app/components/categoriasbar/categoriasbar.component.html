@@ -1,0 +1,7 @@
+<ion-toolbar>
+    <ion-segment scrollable mode='md' color="danger">
+        <ion-segment-button mode='md' *ngFor="let categoria of categorias" color="dark" value="{{categoria}}">
+            <ion-label>{{categoria}}</ion-label>
+        </ion-segment-button>
+    </ion-segment>
+</ion-toolbar>

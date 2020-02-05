@@ -1,0 +1,12 @@
+<app-encabezado titulo="Ofertitas" usuario='{{usuario}}'></app-encabezado>
+<app-categoriasbar></app-categoriasbar>
+
+<ion-content>
+    <ion-grid margin>
+        <ion-row>
+            <ion-col *ngFor='let i of [1,1,1,1,1,1,1,1,1,1,1,1,1,1]' size="12" sm-size="6">
+                <app-fichas-anuncios></app-fichas-anuncios>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>
